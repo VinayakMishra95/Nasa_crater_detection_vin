@@ -1,3 +1,6 @@
 Crater rims serve as vital landmarks for planetary science and autonomous navigation, yet detecting them in orbital imagery remains a significant challenge due to harsh shadows, varying lighting conditions, and eroded rims. This project develops robust algorithms to fit ellipses to crater rims visible in lunar imagery, pushing the boundaries of extraterrestrial computer vision.
 
 The accompanying file, Image_comparison.png, illustrates the three core components of our dataset: the Original Input (left), which provides the raw grayscale lunar surface and serves as the mandatory data source for inference; the Binary Mask (middle), containing hand-labeled ellipses used for training and debugging; and the Truth Overlay (right), a combined visualization used for human review. Note that the algorithm is strictly scored based on its ability to process the raw input without the aid of masks or metadata, ensuring the solution is viable for real-world space exploration.
+
+
+sample code in main.py using the test folder only.
